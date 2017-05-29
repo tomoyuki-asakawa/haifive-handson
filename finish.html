@@ -41,7 +41,7 @@
                         <div>
                             <div>
                                 <label for="reportDate">日付</label>
-                                <div><input id="reportDate" name="reportDate" type="text"></div>
+                                <div><input id="reportDate" name="reportDate" type="date"></div>
                             </div>
                         </div>
                         <div>
@@ -49,7 +49,7 @@
 				                <label for="startTime">勤務時間</label>
 				                <div>
 				                    <div>
-                                     <input id="startTime" name="startTime" type="text">～<input id="endTime" name="endTime" type="text">
+                                     <input id="startTime" name="startTime" type="time">～<input id="endTime" name="endTime" type="time">
 				                    </div>
 				                </div>
 				            </div>
@@ -79,6 +79,10 @@
                            <div class="col-sm-11 comment"><textarea id="comment" name="comment"  class="form-control"></textarea></div>
                         </div>
                         <div class="section-img">
+                          <label>添付画像</label>
+                          <div class="img-input-wrap">
+                            <input accept="image/*" name="img"  type="file"/>
+                          </div>
                         </div>
                     </div>
                 </div>
